@@ -1,0 +1,470 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navagation-bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    height: 30px;
+
+
+
+
+
+
+}
+
+
+
+/* navgation-bar logo ang image */
+#logo {
+    margin: 3px;
+
+
+
+}
+
+#logo img {
+
+    position: fixed;
+    height: 75px;
+    cursor: pointer;
+
+}
+
+
+/* navgation-bar list-style */
+#navbar ul {
+    position: fixed;
+    display: flex;
+    height: 1px;
+    font-family: 'Baloo Bhai', cursive;
+
+
+}
+
+
+#navbar ul li {
+
+    list-style: none;
+    font-size: 1rem;
+
+
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 20px;
+    position: relative;
+    left: 180px;
+
+
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+
+
+
+#navbar ul li a:hover {
+
+   background-color: #f2f2f2;
+    color: black;
+    text-decoration: underline;
+
+
+}
+
+/*Navagation-bar backround */
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 8rem;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+    margin-top: -60px;
+
+
+
+}
+
+/* section Home  */
+
+#home {
+    font-family: 'Baloo Bhai', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+
+
+}
+
+#home::before {
+    content: "";
+    background: url('home.jpg')no-repeat center center/cover;
+    position: absolute;
+
+    width: 100%;
+    height: 500px;
+    left: 0;
+    top: 0;
+
+    z-index: -1;
+    opacity: 0.80;
+
+}
+
+#home #hed {
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    margin: 30px;
+}
+
+#home p {
+
+
+    text-align: center;
+    color: white;
+
+    font-size: 1.1rem;
+}
+
+#btn {
+    padding: 3px;
+    margin: 12px;
+    font-size: 22px;
+    height: 40px;
+    width: 200px;
+    border-radius: 16px;
+    border: 4px solid rgb(99, 36, 36);
+    color: white;
+    background-color: brown;
+}
+
+#btn:hover {
+    color: black;
+    background-color: bisque;
+}
+
+/* section services */
+#servies-con {
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+
+
+#servies {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.box {
+    border: 1px solid rgb(240, 154, 154);
+    height: 190px;
+    width: 350px;
+    margin: 34px 5px;
+    padding: 2px 34px;
+    border-radius: 35px;
+    background-color: #f2f2f2;
+}
+
+#hed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    font-size: 1.7rem;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.sh {
+    font-family: 'Baloo Bhai', cursive;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+
+
+}
+
+
+
+#servies .box img {
+
+
+    height: 85px;
+    padding: 1px;
+
+}
+
+
+
+.client-s {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.ched {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 1.7rem;
+
+}
+
+
+
+
+#client::before {
+    background: url('client-back.jpg') no-repeat center center/cover;
+    content: "";
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+
+
+
+
+}
+
+.cimg {
+
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#contact {
+    margin-top: -120px;
+}
+
+#contact::after {
+    margin-top: -200px;
+    background: url('client.jpg')no-repeat center center/cover;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.contact-con {
+    position: relative;
+    left: 450px;
+    bottom: -300px;
+
+}
+
+.con-hed {
+    text-align: center;
+    position: relative;
+    top: 260px;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 1.7rem;
+
+}
+
+
+
+.btn1 {
+    border: 2px solid black;
+    background-color: #fbeded;
+    width: 200px;
+    font-family: 'Bree Serif', serif;
+
+    border-radius: 6px;
+    height: 24px;
+    text-align: center;
+}
+
+
+
+
+
+.btn1 a {
+
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.btn1:hover {
+    text-decoration: underline;
+
+
+
+    background-color: rgb(243, 190, 195);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 435px;
+    font-size: 0.6rem;
+}
+
+
+.contact-con {
+    width: 40%;
+
+}
+
+.contact-con textarea {
+    width: 100%;
+    padding: 0.1rem;
+    border-radius: 9px;
+    font-size: 15px;
+
+}
+
+.contact-con input {
+    height: 25px;
+    width: 100%;
+    padding: 0.1rem;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.contact-con label {
+    font-size: 1.1rem;
+    font-family: 'Bree Serif', serif;
+
+}
+
+@media only screen and (max-width:1232px) {
+    #logo {
+        margin: 0;
+    }
+
+    #logo img {
+        position: relative;
+        left:150px;
+        top: 8px;
+        height: 35px;
+
+    }
+
+    #navbar ul li a {
+        position: relative;
+        left: 5px;
+        top: 20px;
+        font-size: 15px;
+        padding: 0px 12px;
+    }
+
+    #home::before {
+
+        
+            
+            
+            height: 500px;
+           
+
+
+        }
+
+        #home #hed {
+            
+            font-size: 30px;
+        position:relative;
+        top:10px
+        }
+
+
+        #servies-con {
+            text-align: center;
+            
+
+        }
+        #servies {
+        
+            display: flex;
+            flex-direction: column;
+            
+        }
+        #client::before{
+            height:600px;
+
+        }
+        .contact-con {
+            width: 80%;
+            position: relative;
+            left:20px
+            
+        }
+        #hed{
+            position: relative;
+            top:0px;
+            left:-20px
+        }
+        .box{
+            margin:5px;
+            padding-top:50px;
+            height:300px;
+            width:200px
+        }
+
+        footer{
+        
+            position: relative;
+            top: 465px;
+        }
+
+    }
